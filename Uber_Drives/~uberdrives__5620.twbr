@@ -1,0 +1,2290 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0511.1508                               -->
+<workbook original-version='18.1' source-build='2023.1.2 (20231.23.0511.1508)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <BasicButtonObjectTextSupport />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='my uber drives - 2016 (mydb)' inline='true' name='federated.136rr750qliudl1dmdwkw0fwkfid' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='mysql.0j4deq51e0bmjy12uqgpt1bpaxnc'>
+            <connection class='mysql' dbname='mydb' odbc-native-protocol='' one-time-sql='' port='3306' server='localhost' source-charset='' username='root' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='mysql.0j4deq51e0bmjy12uqgpt1bpaxnc' name='my uber drives - 2016' table='[my uber drives - 2016]' type='table'>
+          <columns>
+            <column datatype='datetime' date-parse-format='MM/dd/yyyy HH:mm' name='START_DATE*' />
+            <column datatype='datetime' date-parse-format='MM/dd/yyyy HH:mm' name='END_DATE*' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='mysql.0j4deq51e0bmjy12uqgpt1bpaxnc' name='my uber drives - 2016' table='[my uber drives - 2016]' type='table'>
+          <columns>
+            <column datatype='datetime' date-parse-format='MM/dd/yyyy HH:mm' name='START_DATE*' />
+            <column datatype='datetime' date-parse-format='MM/dd/yyyy HH:mm' name='END_DATE*' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>START_DATE*</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[START_DATE*]</local-name>
+            <parent-name>[my uber drives - 2016]</parent-name>
+            <remote-alias>START_DATE*</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>END_DATE*</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[END_DATE*]</local-name>
+            <parent-name>[my uber drives - 2016]</parent-name>
+            <remote-alias>END_DATE*</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CATEGORY*</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CATEGORY*]</local-name>
+            <parent-name>[my uber drives - 2016]</parent-name>
+            <remote-alias>CATEGORY*</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>16383</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>START*</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[START*]</local-name>
+            <parent-name>[my uber drives - 2016]</parent-name>
+            <remote-alias>START*</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>16383</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STOP*</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[STOP*]</local-name>
+            <parent-name>[my uber drives - 2016]</parent-name>
+            <remote-alias>STOP*</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>16383</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MILES*</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MILES*]</local-name>
+            <parent-name>[my uber drives - 2016]</parent-name>
+            <remote-alias>MILES*</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PURPOSE*</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PURPOSE*]</local-name>
+            <parent-name>[my uber drives - 2016]</parent-name>
+            <remote-alias>PURPOSE*</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>16383</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Category*' datatype='string' name='[CATEGORY*]' role='dimension' type='nominal' />
+      <column caption='No of Trips' datatype='integer' name='[Calculation_1136033043300892673]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([END_DATE*])' />
+      </column>
+      <column caption='End Date*' datatype='datetime' datatype-customized='true' name='[END_DATE*]' role='dimension' type='ordinal' />
+      <column caption='Miles*' datatype='real' name='[MILES*]' role='measure' type='quantitative' />
+      <column caption='Purpose*' datatype='string' name='[PURPOSE*]' role='dimension' type='nominal' />
+      <column caption='Start*' datatype='string' name='[START*]' role='dimension' type='nominal' />
+      <column caption='Start Date*' datatype='datetime' datatype-customized='true' name='[START_DATE*]' role='dimension' type='ordinal' />
+      <column caption='Stop*' datatype='string' name='[STOP*]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='my uber drives - 2016' datatype='table' name='[__tableau_internal_object_id__].[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]' role='measure' type='quantitative' />
+      <column-instance column='[END_DATE*]' derivation='Count' name='[cnt:END_DATE*:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MILES*]' derivation='Count' name='[cnt:MILES*:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[END_DATE*]' derivation='CountD' name='[ctd:END_DATE*:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PURPOSE*]' derivation='None' name='[none:PURPOSE*:nk]' pivot='key' type='nominal' />
+      <column-instance column='[START*]' derivation='None' name='[none:START*:nk]' pivot='key' type='nominal' />
+      <column-instance column='[STOP*]' derivation='None' name='[none:STOP*:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_1136033043300892673]' derivation='User' name='[usr:Calculation_1136033043300892673:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[END_DATE*]' derivation='Week' name='[wk:END_DATE*:ok]' pivot='key' type='ordinal' />
+      <group hidden='true' name='[Exclusions (Start*,Stop*)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:START*:nk]' />
+          <groupfilter function='level-members' level='[none:STOP*:nk]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='F:/Smart_Internz/Tableau_Project/Uber_Drives/my uber drives - 2016 (mydb).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>START_DATE*</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[START_DATE*]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>START_DATE*</remote-alias>
+              <ordinal>0</ordinal>
+              <family>my uber drives - 2016</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1151</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>END_DATE*</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[END_DATE*]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>END_DATE*</remote-alias>
+              <ordinal>1</ordinal>
+              <family>my uber drives - 2016</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1151</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CATEGORY*</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CATEGORY*]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CATEGORY*</remote-alias>
+              <ordinal>2</ordinal>
+              <family>my uber drives - 2016</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='3' name='LROOT_S1' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>START*</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[START*]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>START*</remote-alias>
+              <ordinal>3</ordinal>
+              <family>my uber drives - 2016</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>175</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='3' name='LROOT_S1' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STOP*</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STOP*]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STOP*</remote-alias>
+              <ordinal>4</ordinal>
+              <family>my uber drives - 2016</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>186</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='3' name='LROOT_S1' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MILES*</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MILES*]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MILES*</remote-alias>
+              <ordinal>5</ordinal>
+              <family>my uber drives - 2016</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>248</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PURPOSE*</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PURPOSE*]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PURPOSE*</remote-alias>
+              <ordinal>6</ordinal>
+              <family>my uber drives - 2016</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='3' name='LROOT_S1' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:STOP*:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Arts District&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Colombo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Financial District&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Ilukwatta&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Lake Reams&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Morrisville&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Pontchartrain Beach&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sharpstown&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Tribeca&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Winston Salem&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Cary&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;East Elmhurst&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hazelwood&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Katunayaka&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mcvan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Nugegoda&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Renaissance&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sugar Land&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Wayne Ridge&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Apex&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chalmette&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Elk Park&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Holly Springs&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kildaire Farms&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Metairie&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Palo Alto&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sand Lake Commons&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Tanglewood&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Weston&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bellevue&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cory&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Fuquay-Varina&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Jackson Heights&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Leesville Hollow&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Newark&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Preston&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;South&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Unknown Location&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Asheville&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Columbia Heights&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Florence&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ingleside&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lake Wellingborough&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mountain View&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Pontchartrain Shores&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sky Lake&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Tudor City&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Arabi&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Chapel Hill&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Emeryville&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Houston&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kips Bay&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Midtown&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Parkway&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Santa Clara&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tenderloin&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Westpark Place&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bywater&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Durham&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Harden Place&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kar?chi&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Mandeville&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Northwest Rectangle&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Red River District&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Stonewater&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Washington Avenue&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Agnew&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CBD&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;East Harlem&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Hell&apos;s Kitchen&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Katy&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Mebane&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Oakland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ridgeland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Summerwinds&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;West Berkeley&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bryson City&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Depot Historic District&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Greater Greenspoint&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;K Street&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Lower Manhattan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;North Austin&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Raleigh&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Southwest Berkeley&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Walnut Terrace&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Arlington&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Chessington&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Farmington Woods&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Hudson Square&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kissimmee&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Midtown East&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Parkway Museums&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Savon Height&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;The Drag&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Whitebridge&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Berkeley&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Covington&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Galveston&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Jacksonville&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lexington Park at Amberly&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Newland&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Queens&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;South Berkeley&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Vista East&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Boone&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Coxville&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Gampaha&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Long Island City&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;NoMad&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Queens County&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;South Congress&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Wake Co.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Burtrose&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Downtown&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Gulfton&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kalorama Triangle&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Macgregor Downs&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;North Berkeley Hills&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Rawalpindi&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;St Thomas&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Washington&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Capitol One&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Eagle Rock&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hayesville&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Karachi&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Marigny&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Northwoods&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Redmond&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Storyville&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Waverly Place&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Banner Elk&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Congress Ave District&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Fort Pierce&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Islamabad&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lakeview&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;New Orleans&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Port Bolivar&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Soho&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Umstead&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Arlington Park at Amberly&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;College Avenue&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Faubourg Marigny&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Huntington Woods&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Lahore&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Midtown West&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Parkwood&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Seattle&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Topton&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Williamsburg Manor&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Alief&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cedar Hill&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Edgehill Farms&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Heritage Pines&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kenner&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Menlo Park&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Orlando&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;San Francisco&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sunnyside&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;West Palm Beach&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Briar Meadow&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Daytona Beach&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Gramercy-Flatiron&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Jamestown Court&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lower Garden District&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Noorpur Shahan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;R?walpindi&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Southside&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Wake Forest&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bay Farm Island&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Convention Center District&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;French Quarter&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Isles of Buena Vista&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Latta&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;New York&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Potrero Flats&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SOMISSPO&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;University District&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Almond&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Central&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;El Cerrito&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Hog Island&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kilarney Woods&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Meredith Townes&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Palm Beach&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;San Jose&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sunnyvale&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;West University&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.136rr750qliudl1dmdwkw0fwkfid].[cnt:MILES*:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.136rr750qliudl1dmdwkw0fwkfid].[cnt:END_DATE*:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.136rr750qliudl1dmdwkw0fwkfid].[ctd:END_DATE*:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.136rr750qliudl1dmdwkw0fwkfid]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.136rr750qliudl1dmdwkw0fwkfid].[usr:Calculation_1136033043300892673:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[wk:END_DATE*:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>29</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>49</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>21</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>41</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>25</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>45</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>13</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>33</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>53</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>30</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>50</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>26</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>46</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>19</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>39</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>22</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>42</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>17</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>37</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>27</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>47</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>14</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>34</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>15</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>35</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>18</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>38</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>20</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>40</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>31</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>51</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>28</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>48</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>23</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>43</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>16</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>36</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>32</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>52</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>24</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>44</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:PURPOSE*:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Customer Visit&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Meeting&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Commute&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Moving&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Meal/Entertain&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Temporary Site&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Airport/Travel&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Charity ($)&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Errand/Supplies&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Between Offices&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='my uber drives - 2016' id='my uber drives - 2016_AA5A397DB47D426085D9D6223DFE6103'>
+            <properties context=''>
+              <relation connection='mysql.0j4deq51e0bmjy12uqgpt1bpaxnc' name='my uber drives - 2016' table='[my uber drives - 2016]' type='table'>
+                <columns>
+                  <column datatype='datetime' date-parse-format='MM/dd/yyyy HH:mm' name='START_DATE*' />
+                  <column datatype='datetime' date-parse-format='MM/dd/yyyy HH:mm' name='END_DATE*' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Category of Miles'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='my uber drives - 2016 (mydb)' name='federated.136rr750qliudl1dmdwkw0fwkfid' />
+          </datasources>
+          <datasource-dependencies datasource='federated.136rr750qliudl1dmdwkw0fwkfid'>
+            <column caption='Category*' datatype='string' name='[CATEGORY*]' role='dimension' type='nominal' />
+            <column caption='Miles*' datatype='real' name='[MILES*]' role='measure' type='quantitative' />
+            <column-instance column='[CATEGORY*]' derivation='None' name='[none:CATEGORY*:nk]' pivot='key' type='nominal' />
+            <column-instance column='[MILES*]' derivation='Sum' name='[sum:MILES*:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:CATEGORY*:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:CATEGORY*:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:CATEGORY*:nk]' member='&quot;&quot;' />
+                <groupfilter function='member' level='[none:CATEGORY*:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.136rr750qliudl1dmdwkw0fwkfid].[none:CATEGORY*:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]' />
+              <text column='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:CATEGORY*:nk]' />
+              <color column='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:CATEGORY*:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{AFD1CC2A-B4FC-4313-AD8B-693376D95EC9}' />
+    </worksheet>
+    <worksheet name='Distance'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff'>Distance B/w Places</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='my uber drives - 2016 (mydb)' name='federated.136rr750qliudl1dmdwkw0fwkfid' />
+          </datasources>
+          <datasource-dependencies datasource='federated.136rr750qliudl1dmdwkw0fwkfid'>
+            <column caption='Miles*' datatype='real' name='[MILES*]' role='measure' type='quantitative' />
+            <column caption='Start*' datatype='string' name='[START*]' role='dimension' type='nominal' />
+            <column caption='Stop*' datatype='string' name='[STOP*]' role='dimension' type='nominal' />
+            <column-instance column='[START*]' derivation='None' name='[none:START*:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STOP*]' derivation='None' name='[none:STOP*:nk]' pivot='key' type='nominal' />
+            <column-instance column='[MILES*]' derivation='Sum' name='[sum:MILES*:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.136rr750qliudl1dmdwkw0fwkfid].[Exclusions (Start*,Stop*)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:START*:nk]' />
+                <groupfilter function='level-members' level='[none:STOP*:nk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:START*:nk]' member='&quot;Fayetteville Street&quot;' />
+                <groupfilter function='member' level='[none:STOP*:nk]' member='&quot;Umstead&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:START*:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:START*:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:START*:nk]' member='&quot;&quot;' />
+                <groupfilter function='member' level='[none:START*:nk]' member='&quot;Unknown Location&quot;' />
+                <groupfilter function='member' level='[none:START*:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:STOP*:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:STOP*:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:STOP*:nk]' member='&quot;&quot;' />
+                <groupfilter function='member' level='[none:STOP*:nk]' member='&quot;Unknown Location&quot;' />
+                <groupfilter function='member' level='[none:STOP*:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.136rr750qliudl1dmdwkw0fwkfid].[none:START*:nk]</column>
+            <column>[federated.136rr750qliudl1dmdwkw0fwkfid].[none:STOP*:nk]</column>
+            <column>[federated.136rr750qliudl1dmdwkw0fwkfid].[Exclusions (Start*,Stop*)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='251' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]' />
+              <color column='[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]' />
+              <text column='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:START*:nk]' />
+              <text column='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:STOP*:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{256A2EF7-93DC-4C3D-8309-82A593C6E67B}' />
+    </worksheet>
+    <worksheet name='Hour wise Analysis'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='my uber drives - 2016 (mydb)' name='federated.136rr750qliudl1dmdwkw0fwkfid' />
+          </datasources>
+          <datasource-dependencies datasource='federated.136rr750qliudl1dmdwkw0fwkfid'>
+            <column caption='No of Trips' datatype='integer' name='[Calculation_1136033043300892673]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([END_DATE*])' />
+            </column>
+            <column caption='End Date*' datatype='datetime' datatype-customized='true' name='[END_DATE*]' role='dimension' type='ordinal' />
+            <column-instance column='[END_DATE*]' derivation='Hour' name='[hr:END_DATE*:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1136033043300892673]' derivation='User' name='[usr:Calculation_1136033043300892673:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[END_DATE*]' derivation='Year' name='[yr:END_DATE*:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.136rr750qliudl1dmdwkw0fwkfid].[yr:END_DATE*:ok]'>
+            <groupfilter function='member' level='[yr:END_DATE*:ok]' member='2016' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.136rr750qliudl1dmdwkw0fwkfid].[yr:END_DATE*:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.136rr750qliudl1dmdwkw0fwkfid].[usr:Calculation_1136033043300892673:qk]' />
+              <text column='[federated.136rr750qliudl1dmdwkw0fwkfid].[hr:END_DATE*:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-color' value='#75a1c7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{93CDE447-D69A-4E16-942B-75A09B78184B}' />
+    </worksheet>
+    <worksheet name='Miles per Category and Purpose'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='my uber drives - 2016 (mydb)' name='federated.136rr750qliudl1dmdwkw0fwkfid' />
+          </datasources>
+          <datasource-dependencies datasource='federated.136rr750qliudl1dmdwkw0fwkfid'>
+            <column caption='Category*' datatype='string' name='[CATEGORY*]' role='dimension' type='nominal' />
+            <column caption='Miles*' datatype='real' name='[MILES*]' role='measure' type='quantitative' />
+            <column caption='Purpose*' datatype='string' name='[PURPOSE*]' role='dimension' type='nominal' />
+            <column-instance column='[CATEGORY*]' derivation='None' name='[none:CATEGORY*:nk]' pivot='key' type='nominal' />
+            <column-instance column='[PURPOSE*]' derivation='None' name='[none:PURPOSE*:nk]' pivot='key' type='nominal' />
+            <column-instance column='[MILES*]' derivation='Sum' name='[sum:MILES*:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:CATEGORY*:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:CATEGORY*:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:CATEGORY*:nk]' member='&quot;&quot;' />
+                <groupfilter function='member' level='[none:CATEGORY*:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:PURPOSE*:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:PURPOSE*:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:PURPOSE*:nk]' member='&quot;&quot;' />
+                <groupfilter function='member' level='[none:PURPOSE*:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.136rr750qliudl1dmdwkw0fwkfid].[none:CATEGORY*:nk]</column>
+            <column>[federated.136rr750qliudl1dmdwkw0fwkfid].[none:PURPOSE*:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:PURPOSE*:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]</rows>
+        <cols>([federated.136rr750qliudl1dmdwkw0fwkfid].[none:CATEGORY*:nk] / [federated.136rr750qliudl1dmdwkw0fwkfid].[none:PURPOSE*:nk])</cols>
+      </table>
+      <simple-id uuid='{3FEB471C-5B82-4D4D-BDB4-0531C240B857}' />
+    </worksheet>
+    <worksheet name='Month Wise Miles'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='my uber drives - 2016 (mydb)' name='federated.136rr750qliudl1dmdwkw0fwkfid' />
+          </datasources>
+          <datasource-dependencies datasource='federated.136rr750qliudl1dmdwkw0fwkfid'>
+            <column caption='Category*' datatype='string' name='[CATEGORY*]' role='dimension' type='nominal' />
+            <column caption='End Date*' datatype='datetime' datatype-customized='true' name='[END_DATE*]' role='dimension' type='ordinal' />
+            <column caption='Miles*' datatype='real' name='[MILES*]' role='measure' type='quantitative' />
+            <column-instance column='[CATEGORY*]' derivation='None' name='[none:CATEGORY*:nk]' pivot='key' type='nominal' />
+            <column-instance column='[MILES*]' derivation='Sum' name='[sum:MILES*:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[END_DATE*]' derivation='Month-Trunc' name='[tmn:END_DATE*:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:CATEGORY*:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:CATEGORY*:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:CATEGORY*:nk]' member='&quot;&quot;' />
+                <groupfilter function='member' level='[none:CATEGORY*:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.136rr750qliudl1dmdwkw0fwkfid].[none:CATEGORY*:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f17b79' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]</rows>
+        <cols>[federated.136rr750qliudl1dmdwkw0fwkfid].[tmn:END_DATE*:ok]</cols>
+      </table>
+      <simple-id uuid='{4D70312E-F13D-4C6B-885D-C28EE6AED5D2}' />
+    </worksheet>
+    <worksheet name='Month wise Trips'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff'>Number of Trips per Month</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='my uber drives - 2016 (mydb)' name='federated.136rr750qliudl1dmdwkw0fwkfid' />
+          </datasources>
+          <datasource-dependencies datasource='federated.136rr750qliudl1dmdwkw0fwkfid'>
+            <column caption='No of Trips' datatype='integer' name='[Calculation_1136033043300892673]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([END_DATE*])' />
+            </column>
+            <column caption='End Date*' datatype='datetime' datatype-customized='true' name='[END_DATE*]' role='dimension' type='ordinal' />
+            <column-instance column='[END_DATE*]' derivation='Quarter' name='[qr:END_DATE*:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[END_DATE*]' derivation='Month-Trunc' name='[tmn:END_DATE*:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1136033043300892673]' derivation='User' name='[usr:Calculation_1136033043300892673:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.136rr750qliudl1dmdwkw0fwkfid].[qr:END_DATE*:ok]'>
+            <groupfilter from='1' function='range' level='[qr:END_DATE*:ok]' to='4' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.136rr750qliudl1dmdwkw0fwkfid].[qr:END_DATE*:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.136rr750qliudl1dmdwkw0fwkfid].[tmn:END_DATE*:ok]' value='42' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.136rr750qliudl1dmdwkw0fwkfid].[usr:Calculation_1136033043300892673:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.136rr750qliudl1dmdwkw0fwkfid].[usr:Calculation_1136033043300892673:qk]' />
+              <text column='[federated.136rr750qliudl1dmdwkw0fwkfid].[usr:Calculation_1136033043300892673:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.136rr750qliudl1dmdwkw0fwkfid].[tmn:END_DATE*:ok]</cols>
+      </table>
+      <simple-id uuid='{2D007A10-26FB-49D2-85CE-4B5ADF9E48B7}' />
+    </worksheet>
+    <worksheet name='Quarter Wise Miles'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='my uber drives - 2016 (mydb)' name='federated.136rr750qliudl1dmdwkw0fwkfid' />
+          </datasources>
+          <datasource-dependencies datasource='federated.136rr750qliudl1dmdwkw0fwkfid'>
+            <column caption='End Date*' datatype='datetime' datatype-customized='true' name='[END_DATE*]' role='dimension' type='ordinal' />
+            <column caption='Miles*' datatype='real' name='[MILES*]' role='measure' type='quantitative' />
+            <column-instance column='[END_DATE*]' derivation='Quarter' name='[qr:END_DATE*:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[MILES*]' derivation='Sum' name='[sum:MILES*:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[END_DATE*]' derivation='Year' name='[yr:END_DATE*:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.136rr750qliudl1dmdwkw0fwkfid].[yr:END_DATE*:ok]'>
+            <groupfilter function='member' level='[yr:END_DATE*:ok]' member='2016' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.136rr750qliudl1dmdwkw0fwkfid].[yr:END_DATE*:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.136rr750qliudl1dmdwkw0fwkfid].[qr:END_DATE*:ok]' />
+              <wedge-size column='[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]' />
+              <size column='[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C5B5BE1E-1EDB-4DD8-A3F3-95D3CF080A70}' />
+    </worksheet>
+    <worksheet name='Quarter Wise Trips'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='my uber drives - 2016 (mydb)' name='federated.136rr750qliudl1dmdwkw0fwkfid' />
+          </datasources>
+          <datasource-dependencies datasource='federated.136rr750qliudl1dmdwkw0fwkfid'>
+            <column caption='No of Trips' datatype='integer' name='[Calculation_1136033043300892673]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([END_DATE*])' />
+            </column>
+            <column caption='End Date*' datatype='datetime' datatype-customized='true' name='[END_DATE*]' role='dimension' type='ordinal' />
+            <column-instance column='[END_DATE*]' derivation='Quarter' name='[qr:END_DATE*:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1136033043300892673]' derivation='User' name='[usr:Calculation_1136033043300892673:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[END_DATE*]' derivation='Year' name='[yr:END_DATE*:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.136rr750qliudl1dmdwkw0fwkfid].[yr:END_DATE*:ok]'>
+            <groupfilter function='member' level='[yr:END_DATE*:ok]' member='2016' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.136rr750qliudl1dmdwkw0fwkfid].[yr:END_DATE*:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.136rr750qliudl1dmdwkw0fwkfid].[qr:END_DATE*:ok]' value='Quarter of End Date'>
+              <formatted-text>
+                <run fontcolor='#ffffff'>Quarter of End Date</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.136rr750qliudl1dmdwkw0fwkfid].[qr:END_DATE*:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.136rr750qliudl1dmdwkw0fwkfid].[usr:Calculation_1136033043300892673:qk]</rows>
+        <cols>([federated.136rr750qliudl1dmdwkw0fwkfid].[yr:END_DATE*:ok] / [federated.136rr750qliudl1dmdwkw0fwkfid].[qr:END_DATE*:ok])</cols>
+      </table>
+      <simple-id uuid='{C3F97859-31C6-4C2F-8A53-44C77A3DF996}' />
+    </worksheet>
+    <worksheet name='Week wise Miles '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='my uber drives - 2016 (mydb)' name='federated.136rr750qliudl1dmdwkw0fwkfid' />
+          </datasources>
+          <datasource-dependencies datasource='federated.136rr750qliudl1dmdwkw0fwkfid'>
+            <column caption='End Date*' datatype='datetime' datatype-customized='true' name='[END_DATE*]' role='dimension' type='ordinal' />
+            <column caption='Miles*' datatype='real' name='[MILES*]' role='measure' type='quantitative' />
+            <column-instance column='[MILES*]' derivation='Sum' name='[sum:MILES*:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[END_DATE*]' derivation='Week' name='[wk:END_DATE*:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[END_DATE*]' derivation='Year' name='[yr:END_DATE*:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.136rr750qliudl1dmdwkw0fwkfid].[yr:END_DATE*:ok]'>
+            <groupfilter function='member' level='[yr:END_DATE*:ok]' member='2016' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.136rr750qliudl1dmdwkw0fwkfid].[yr:END_DATE*:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]</rows>
+        <cols>[federated.136rr750qliudl1dmdwkw0fwkfid].[wk:END_DATE*:ok]</cols>
+      </table>
+      <simple-id uuid='{2E5CAE4A-5C58-4CDC-A560-CE6AA7662BB6}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='3' is-scaled='1' param='C:/Users/saimanish/Downloads/resize-1686848243733077449mm.jpg' type-v2='bitmap' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='11000' id='5' type-v2='text' w='56700' x='18400' y='1875'>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='28'>UBER DRIVES ANALYSIS</run>
+          </formatted-text>
+        </zone>
+        <zone h='33250' id='6' name='Quarter Wise Trips' w='44700' x='4200' y='14750' />
+        <zone h='14375' id='7' name='Month wise Trips' w='76700' x='13800' y='48125' />
+        <zone h='31625' id='8' name='Week wise Miles ' show-title='false' w='92200' x='4000' y='65625' />
+        <zone h='33000' id='9' name='Category of Miles' w='44300' x='51400' y='15250' />
+        <zone h='6500' id='10' type-v2='dashboard-object' w='16400' x='77800' y='4375'>
+          <button action='tabdoc:goto-sheet window-id=&quot;{2AA10B87-E2E0-4317-B891-1044C2694C95}&quot;' button-type='text'>
+            <button-visual-state>
+              <caption>NEXT</caption>
+              <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+              <format attr='background-color' value='#e15759' />
+            </button-visual-state>
+          </button>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='17' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' is-scaled='1' param='C:/Users/saimanish/Downloads/resize-1686848243733077449mm.jpg' type-v2='bitmap' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='11000' id='5' type-v2='text' w='56700' x='18400' y='1875'>
+                  <formatted-text>
+                    <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='28'>UBER DRIVES ANALYSIS</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6500' id='10' type-v2='dashboard-object' w='16400' x='77800' y='4375'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{2AA10B87-E2E0-4317-B891-1044C2694C95}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>NEXT</caption>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#e15759' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='266' h='33250' id='6' is-fixed='true' name='Quarter Wise Trips' w='44700' x='4200' y='14750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='264' h='33000' id='9' is-fixed='true' name='Category of Miles' w='44300' x='51400' y='15250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='115' h='14375' id='7' is-fixed='true' name='Month wise Trips' w='76700' x='13800' y='48125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='253' h='31625' id='8' is-fixed='true' name='Week wise Miles ' show-title='false' w='92200' x='4000' y='65625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{22BF64C0-18BC-4EF3-826C-CB173FFCB60C}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 3'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='1' is-scaled='1' param='C:/Users/saimanish/Downloads/resize-1686848243733077449mm.jpg' type-v2='bitmap' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='14750' id='3' type-v2='text' w='58900' x='17600' y='1500'>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='28'>UBER DRIVES ANALYSIS</run>
+          </formatted-text>
+        </zone>
+        <zone h='38000' id='4' name='Miles per Category and Purpose' show-title='false' w='53900' x='5400' y='16750' />
+        <zone h='39000' id='5' name='Month Wise Miles' w='40200' x='55500' y='56250' />
+        <zone h='37125' id='6' name='Quarter Wise Miles' w='33300' x='62700' y='16125' />
+        <zone h='13250' id='7' name='Quarter Wise Miles' pane-specification-id='0' param='[federated.136rr750qliudl1dmdwkw0fwkfid].[qr:END_DATE*:ok]' type-v2='color' w='14000' x='45500' y='22125' />
+        <zone h='7375' id='9' type-v2='dashboard-object' w='16400' x='77000' y='5000'>
+          <button action='tabdoc:goto-sheet window-id=&quot;{357EA8D2-354D-4AED-9BB9-9EFFD185A28D}&quot;' button-type='text'>
+            <button-visual-state>
+              <caption>PREVIOUS</caption>
+              <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+              <format attr='background-color' value='#e15759' />
+              <format attr='border-style' value='solid' />
+              <format attr='border-width' value='1' />
+              <format attr='border-color' value='#000000' />
+            </button-visual-state>
+          </button>
+        </zone>
+        <zone h='39250' id='10' name='Hour wise Analysis' w='48000' x='5500' y='55625' />
+      </zones>
+      <simple-id uuid='{6B3D0F40-CBE9-4EF5-A936-E345AC45C68C}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Analysis of Uber Trips&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='4357' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='5187' />
+            <zone h='83506' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='15664'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='In Q4 , More Uber Trips have been taken place.' captured-sheet='Quarter Wise Trips' id='1' />
+                  <story-point caption='In December, More Trips have been Take place.' captured-sheet='Month wise Trips' id='2' />
+                  <story-point caption='Uber is busy from 3- 7 pm' captured-sheet='Hour wise Analysis' id='3' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{8BE716B7-3559-40CA-919B-D4C9060CCECE}' />
+    </dashboard>
+    <dashboard name='Story 2' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Analysis of Miles Covered by Uber</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='4357' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='5187' />
+            <zone h='83506' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='15664'>
+              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='In Q4, More Miles are covered.' captured-sheet='Quarter Wise Miles' id='1' />
+                  <story-point caption='In October , More Miles are Covered.' captured-sheet='Month Wise Miles' id='2' />
+                  <story-point caption='In week 13 , More Miles are covered.' captured-sheet='Week wise Miles ' id='3'>
+                    <currentDeltas>
+                      <worksheet name='Week wise Miles '>
+                        <selection-collection>
+                          <tuple-selection>
+                            <tuple-reference>
+                              <tuple-descriptor>
+                                <pane-descriptor>
+                                  <x-fields>
+                                    <field>[federated.136rr750qliudl1dmdwkw0fwkfid].[wk:END_DATE*:ok]</field>
+                                  </x-fields>
+                                  <y-fields>
+                                    <field>[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]</field>
+                                  </y-fields>
+                                </pane-descriptor>
+                                <columns>
+                                  <field>[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]</field>
+                                  <field>[federated.136rr750qliudl1dmdwkw0fwkfid].[wk:END_DATE*:ok]</field>
+                                </columns>
+                              </tuple-descriptor>
+                              <tuple>
+                                <value>119.70000000000002</value>
+                                <value>39</value>
+                              </tuple>
+                            </tuple-reference>
+                          </tuple-selection>
+                        </selection-collection>
+                      </worksheet>
+                    </currentDeltas>
+                    <capturedDeltas />
+                  </story-point>
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{DD242032-76F1-4CD5-BFD5-15F81CD4D2C9}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Miles per Category and Purpose'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:PURPOSE*:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E1AED036-4A6A-437E-9C8D-4016A35D322D}' />
+    </window>
+    <window class='worksheet' name='Category of Miles'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.136rr750qliudl1dmdwkw0fwkfid].[none:CATEGORY*:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{1B95D81D-E87D-41C7-B4B8-BDF63BC71065}' />
+    </window>
+    <window class='worksheet' name='Distance'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{49D8F1AB-C81B-40E9-A3B7-85B3CD722F3E}' />
+    </window>
+    <window class='worksheet' name='Quarter Wise Trips'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.136rr750qliudl1dmdwkw0fwkfid].[qr:END_DATE*:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{D929FCC3-1438-4F15-84CE-4C9E9F94393D}' />
+    </window>
+    <window class='worksheet' name='Month wise Trips'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.136rr750qliudl1dmdwkw0fwkfid].[usr:Calculation_1136033043300892673:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D6F181FF-1005-4792-AF29-E1B1B1499383}' />
+    </window>
+    <window class='worksheet' name='Month Wise Miles'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2C36E370-7D5B-4AC6-AD67-003E1EA28B09}' />
+    </window>
+    <window class='worksheet' name='Week wise Miles '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{40987BBA-56AC-4B60-A6EC-18E85504E7D4}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Quarter Wise Miles'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.136rr750qliudl1dmdwkw0fwkfid].[qr:END_DATE*:ok]' type='color' />
+            <card pane-specification-id='0' param='[federated.136rr750qliudl1dmdwkw0fwkfid].[sum:MILES*:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{6137D8BD-468E-4567-858A-4185840EFCB6}' />
+    </window>
+    <window class='worksheet' name='Hour wise Analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{C443FA11-F72D-453C-8C38-425C281EE8B1}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Category of Miles'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Month wise Trips' />
+        <viewpoint name='Quarter Wise Trips'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Week wise Miles '>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{357EA8D2-354D-4AED-9BB9-9EFFD185A28D}' />
+    </window>
+    <window class='dashboard' name='Dashboard 3'>
+      <viewpoints>
+        <viewpoint name='Hour wise Analysis'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Miles per Category and Purpose'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Month Wise Miles'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Quarter Wise Miles'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{2AA10B87-E2E0-4317-B891-1044C2694C95}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{3C08861B-708E-4677-80CD-DEE75833E9F8}' />
+    </window>
+    <window class='dashboard' name='Story 2'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{DEC79572-572B-4371-919A-3B1952D7AFF8}' />
+    </window>
+  </windows>
+</workbook>

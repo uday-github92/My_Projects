@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Find The Donor Here</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    .highlight-text {
+      background-color: yellow;
+      color:rgb(250, 123, 5);
+      font-size: 50px;
+      text-decoration-color: brown;
+    }
+    .index
+    {
+    margin:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    font-style: bold;
+    border-radius:30px;
+    font-size:50px;
+    .predicted-text {
+      color: rgb(250, 250, 252); /* Change the color to your desired color */
+      font-size: 18px; /* Change the font size to your desired size */
+      font-weight: bold; /* Optional: Add font-weight if you want the text to be bold */
+    }
+    }
+    .flask-output {
+      background-color: rgb(8, 8, 8);
+      color: rgb(253, 252, 252); /* Change the color to your desired color */
+      font-size:25px; /* Change the font size to your desired size */
+      font-weight: bold; /* Optional: Add font-weight if you want the text to be bold */
+    }
+    body
+    {
+    background-image: url('http://sbcltr.in/wp-content/uploads/2018/05/sbcltr-blood-donation-1200x520-1108x480.jpg');
+    background-size: cover;
+    }
+    p
+    {
+    color:black;
+    font-style:italic;
+    font-size:30px;
+    }
+    </style>
+
+</head>
+<body>
+
+<div class="index"> 
+    <center>
+        <h1><p class="highlight-text">Find Your Donor</p></h1>
+	<!-- <h1>Find Your Best Crop Here</h1><br> -->
+    <h3><p>Please enter the donor details</p>
+    <!-- </h3><br> -->
+    </center> 
+
+     <!-- Main Input For Receiving Query to our ML -->
+<h6>
+  <center>
+    <form action="{{ url_for('predict')}}"method="post">
+        <label for="Recency" >Recency:</label><br>
+        <input type="text" id="Recency" name="Recency" placeholder="Recency" required="required"/><br><br>
+        <label for="Frequency">Frequency:</label><br>
+        <input type="text" id="Frequency" name="Frequency" placeholder="Frequency" required="required"/><br><br>
+        <label for="Monetary">Monetary:</label><br>
+        <input type="text" id="Monetary" name="Monetary" placeholder="Monetary" required="required"/><br><br>
+        <label for="Time">Time:</label><br>
+        <input type="text" id="Time" name="Time" placeholder="Time" required="required"/><br><br>
+        
+        <button type="submit" class="btn btn-primary btn-block ">Predict</button>
+    </form>
+    <br>
+  </center>
+</h6>
+<h3>
+      <p class="flask-output">{{ prediction_text }}</p>
+</h3>
+
+</div>
+
+</body>
+</html>
